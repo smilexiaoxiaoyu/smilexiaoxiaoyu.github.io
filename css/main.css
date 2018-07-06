@@ -604,6 +604,7 @@ video {
 .main {
   margin-top: 30px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 .archive-title {
   margin: 1.6em;
@@ -665,6 +666,11 @@ video {
   box-shadow: 0 1px 5px rgba(50,50,50,0.2);
   border-color: transparent;
 }
+.post {
+  width: 31.333%;
+  margin-left: 1%;
+  float: left;
+}
 .excerpt {
   margin-top: 20px;
 }
@@ -718,6 +724,7 @@ video {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: normal;
+  font-size: 0.5rem;
 }
 .post__title > a {
   color: #666;
@@ -952,6 +959,10 @@ video {
   .main,
   .foot {
     width: 100%;
+  }
+  .post {
+    margin: 0 1%;
+    width: 98%;
   }
   .head,
   .foot {
